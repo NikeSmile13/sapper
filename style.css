@@ -1,0 +1,33 @@
+.wrapper {
+    width: 642px;
+}
+
+.menu__panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 255px;
+}
+
+.field {
+    display: grid;
+    grid-template-columns: repeat(16, 40px);
+}
+
+.equal__button, .fied__button {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+ } 
+ 
+ .equal__button img, .fied__button img {
+    position:absolute;
+    top: 50%;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+

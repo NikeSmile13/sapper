@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./src/script.js" defer></script>
+    <script src="./src/timer.js" defer></script>
+    <script src="./src/number_of_mines.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="menu__panel">
+        <div id="counter__label" class="min__counter">40</div>
+        <div class="smiley__face">
+          <button
+            id="equal"
+            type="button"
+            class="equal__button"
+            value="Refresh Page"
+            onClick="history.go(0);"
+          >
+            <img src="./img/smile.png" alt="#" />
+          </button>
+        </div>
+        <div id="time" class="timer">00:00</div>
+      </div>
+      <div class="field"></div>
+    </div>
+  </body>
+</html>
